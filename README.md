@@ -277,11 +277,3 @@ graph TD
    cd typescript/movie-app
    pnpm dev
    ```
-
-### トラブルシューティング
-- コマンドが認識されない場合は、環境変数のPATHが正しく設定されているか確認してください
-- インストール後は必ずターミナル/コマンドプロンプトを再起動してください
-- Windowsの場合、PowerShellの実行ポリシーの変更が必要な場合があります:
-  ```powershell
-  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-  ```
