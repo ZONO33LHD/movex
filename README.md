@@ -134,10 +134,9 @@ graph TD
    node --version  # バージョン確認
    ```
 
-3. **pnpmのインストール**
+3. **npmの確認**
    ```bash
-   npm install -g pnpm
-   pnpm --version  # バージョン確認
+   npm --version  # バージョン確認
    ```
 
 4. **Makeのインストール**
