@@ -6,4 +6,4 @@
         from_env: HASURA_GRAPHQL_DATABASE_URL
       isolation_level: read-committed
       use_prepared_statements: false
-  tables: []
+  tables: "!include movex/tables/tables.yaml"
