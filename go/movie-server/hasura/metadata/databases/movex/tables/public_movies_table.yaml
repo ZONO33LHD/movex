@@ -1,0 +1,3 @@
+table:
+  name: movies_table
+  schema: public

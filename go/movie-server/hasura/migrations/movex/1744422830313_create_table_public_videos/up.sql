@@ -1,0 +1,1 @@
+CREATE TABLE "public"."videos" ("id" varchar NOT NULL, "title" varchar NOT NULL, "description" varchar NOT NULL, "url" varchar NOT NULL, "user_id" varchar NOT NULL, "created_at" timestamptz NOT NULL DEFAULT now(), "updated_at" timestamptz NOT NULL DEFAULT now(), PRIMARY KEY ("id") , FOREIGN KEY ("user_id") REFERENCES "public"."users"("id") ON UPDATE no action ON DELETE cascade);

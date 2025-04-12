@@ -1,0 +1,4 @@
+- "!include public_comments.yaml"
+- "!include public_movies_table.yaml"
+- "!include public_users.yaml"
+- "!include public_videos.yaml"

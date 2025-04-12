@@ -1,0 +1,17 @@
+**/*.mdc
+.env
+**/node_modules
+.next
+**/*.next
+**/.next/cache
+**/.next/cache/**
+**/*.pack.gz
+**/*.pack.gz.old
+.DS_Store
+
+# Next.js specific files
+**/typescript/movie-web/.next/
+**/typescript/movie-web/.next/cache/
+**/typescript/movie-web/.next/cache/webpack/
+**/typescript/movie-web/.next/cache/webpack/**/*
+

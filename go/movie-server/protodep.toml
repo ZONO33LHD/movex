@@ -1,0 +1,11 @@
+proto_outdir = "./proto"
+
+[[dependencies]]
+  target = "github.com/envoyproxy/protoc-gen-validate/validate"
+  branch = "master"
+  path = "envoyproxy/validate"
+
+[[dependencies]]
+  target = "github.com/googleapis/googleapis/google/type"
+  branch = "master"
+  path = "google/type"
