@@ -1,1 +1,0 @@
-CREATE TABLE "public"."comments" ("id" varchar NOT NULL, "content" varchar NOT NULL, "video_id" varchar NOT NULL, "user_id" varchar NOT NULL, "created_at" timestamptz NOT NULL DEFAULT now(), "updated_at" timestamptz NOT NULL DEFAULT now(), PRIMARY KEY ("id") , FOREIGN KEY ("user_id") REFERENCES "public"."users"("id") ON UPDATE no action ON DELETE cascade);

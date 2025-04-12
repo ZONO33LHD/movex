@@ -1,1 +1,0 @@
-CREATE TABLE "public"."movies_table" ("id" varchar NOT NULL, "title" varchar NOT NULL, "movie_data_url" varchar NOT NULL, "description" varchar, "thumbnail_url" varchar, "durations" integer NOT NULL DEFAULT 0, "created_at" timestamptz NOT NULL DEFAULT now(), "updated_at" timestamptz NOT NULL DEFAULT now(), PRIMARY KEY ("id") );
