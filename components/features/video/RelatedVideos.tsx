@@ -16,7 +16,6 @@ interface VideoItem {
 }
 
 export function RelatedVideos({ currentVideoId }: RelatedVideosProps) {
-  // この部分は実際のデータフェッチに置き換えてください
   const mockVideos: VideoItem[] = Array.from({ length: 10 }, (_, i) => ({
     id: `video-${i + 1}`,
     title: `関連動画タイトル ${i + 1}`,

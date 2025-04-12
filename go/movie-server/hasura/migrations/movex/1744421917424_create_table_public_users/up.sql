@@ -1,0 +1,1 @@
+CREATE TABLE "public"."users" ("id" varchar NOT NULL, "email" varchar, "first_name" varchar NOT NULL, "last_name" varchar NOT NULL, "avatar_url" varchar, "created_at" timestamptz NOT NULL DEFAULT now(), "updated_at" timestamptz NOT NULL DEFAULT now(), PRIMARY KEY ("id") );
